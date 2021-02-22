@@ -1,0 +1,12 @@
+.container {
+    width: 400px;
+    clear: both;
+    margin-bottom:100px;
+    background-color: rgb(228, 205, 255);
+    padding:10px;
+  }
+  
+  .container input {
+    width: 100%;
+    clear: both;
+  }

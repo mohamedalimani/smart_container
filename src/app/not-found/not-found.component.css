@@ -1,0 +1,13 @@
+#notfound{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+button{
+    text-align: right;
+    margin:5px;
+}
+a{
+    color:rgb(255, 255, 255) ; 
+    text-decoration: none;
+}

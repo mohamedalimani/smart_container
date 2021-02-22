@@ -1,0 +1,19 @@
+#login{
+    margin-bottom:500px;
+    text-align: center;
+    margin-top: 100px;
+}
+label{
+    margin-right:15px;
+}
+button{
+    text-align: right;
+    margin:5px;
+}
+a{
+    color:rgb(255, 255, 255) ; 
+    text-decoration: none;
+}
+#signup{
+    color: blue;
+}

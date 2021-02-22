@@ -1,0 +1,60 @@
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  .profileCard{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+ 
+    float:right;
+    padding:10px;
+    border-radius: 4px;
+    top:0;
+    right:0;
+    }
+    .notifications{
+      border-color:black;
+      border-style: solid;
+      margin-top: 20px;
+      float:right ;
+      color:white;
+      text-align: center; 
+      background-color:black;
+      height: fit-content;
+      width: fit-content;
+      padding:10px;
+    }
+li{
+  margin-bottom: 20px;
+  width: 100%;
+  font-weight: bold;
+  color:black;
+  border-radius: 10px;
+}
+ul{
+  overflow-y: scroll;
+  max-height: 400px;
+}
+.mapdata{
+  background-color: rgb(245, 245, 245);
+  width: fit-content;
+  margin: 10px;
+  padding:10px;
+  list-style-type: none;
+}
+#dunno{
+  float:left ; 
+  margin-right: 5px;
+}
+a{
+  color:rgb(255, 255, 255) ; 
+  text-decoration: none;
+}

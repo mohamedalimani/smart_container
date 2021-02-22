@@ -1,0 +1,77 @@
+<br>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <h2>Containers available</h2>
+<table>
+    <tr>
+        <th>Container name</th>
+        <th>Departure time</th>
+        <th>Estimated arrival time</th>
+        <th>sensors state</th>
+        <th>container state</th>
+    </tr>
+    <tr>
+        <td>container 1</td>
+        <td>15:29:30:12/01/2021</td>
+        <td>20:09:24:15/02/2021</td>
+        <td>NOT ALL</td> <!--ON/OFF-->
+        <td style="background-color: rgb(19, 175, 19);"></td>
+    </tr>
+    <tr>
+        <td>container 2</td>
+        <td>04:00:30:10/01/2021</td>
+        <td>07:13:38:20/02/2021</td>
+        <td>ON</td> <!--ON/OFF-->
+        <td style="background-color: rgb(223, 31, 31);"></td>
+    </tr>
+</table>
+<button type="button" class="btn btn-primary" routerLink="/add">add container</button>
+<br><br>
+
+<!-- affichage des coordonnées d'un containeurs selectionées -->
+
+<div class="mapdata">
+    <div id="dunno">
+    <li>selected :</li>
+    <li>
+        <select id="inputState" class="form-control">
+        <option>container 1</option>
+
+
+         
+        <option>container 2</option>
+        <option>container 3</option>
+    </select></li>
+    <li>x coordinates :</li>
+    <li><button type="button" class="btn btn-info">42.5215215</button></li>
+    <li>y coordinates :</li>
+    <li><button type="button" class="btn btn-info">20.4255354</button></li>
+</div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d123227.57004203736!2d10.803856385389729!3d35.74648639684721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2stn!4v1613255693149!5m2!1sen!2stn"
+width="450" height="370">
+</iframe>
+</div>
+
+</div>
+    <div class="col-md-4">
+    <div class="profileCard">
+        <img src="../../assets/user.jpg" width="130px" height="120px">
+        <div style="float:right;margin-left:10px;">
+            <p style="font-weight: bold;">john smith</p>
+            <p>buisnessman</p>
+            <button type="button" class="btn btn-danger"><a href="/user">disconnect</a></button>
+        </div >
+        </div>
+        <div class="notifications">
+        <h3>notifications</h3>
+        <p></p>
+        <ul class="list-group">
+             <li class="list-group-item" style="background-color:red">your container is in danger <small class="badge bg-primary">4 minutes ago</small></li>
+            <li class="list-group-item" style="background-color:yellow">gaz sensor not working    <small class="badge bg-primary">1 minute ago</small></li>
+            <li class="list-group-item" style="background-color:rgb(48, 184, 48);">check result : ACK   <small class="badge bg-primary">1 hour ago</small></li>
+          </ul>
+        </div>
+    </div>
+</div>
+</div>
